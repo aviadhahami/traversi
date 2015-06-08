@@ -427,7 +427,7 @@ namespace Othello.UI
         /// Handles the OnGameStarted event of the othelloBoardControl control.
         /// </summary>
         /// <param name="i_Sender">The source of the event.</param>
-        /// <param name="i_EndTurnEventArgs">The <see cref="Ex06.Othello.Logic.EndTurnEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_EndTurnEventArgs">The <see cref="Othello.Logic.EndTurnEventArgs"/> instance containing the event data.</param>
         private void othelloBoardControl_OnGameStarted(object i_Sender, EndTurnEventArgs i_EndTurnEventArgs)
         {
             m_GameStatusBar.Text = string.Format(m_MoveFormat, i_EndTurnEventArgs.CurrentPlayer);
@@ -439,7 +439,7 @@ namespace Othello.UI
         /// Handles the OnTurnEnded event of the othelloBoardControl control.
         /// </summary>
         /// <param name="i_Sender">The source of the event.</param>
-        /// <param name="i_UserInteractionEndTurnEventArgs">The <see cref="Ex06.Othello.Logic.UserInteractionEndTurnEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_UserInteractionEndTurnEventArgs">The <see cref="Othello.Logic.UserInteractionEndTurnEventArgs"/> instance containing the event data.</param>
         private void othelloBoardControl_OnTurnEnded(object i_Sender, UserInteractionEndTurnEventArgs i_UserInteractionEndTurnEventArgs)
         {
             if (this.InvokeRequired)
@@ -455,7 +455,7 @@ namespace Othello.UI
         /// <summary>
         /// Handles the turn end.
         /// </summary>
-        /// <param name="i_UserInteractionEndTurnEventArgs">The <see cref="Ex06.Othello.Logic.UserInteractionEndTurnEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_UserInteractionEndTurnEventArgs">The <see cref="Othello.Logic.UserInteractionEndTurnEventArgs"/> instance containing the event data.</param>
         private void handleTurnEnd(UserInteractionEndTurnEventArgs i_UserInteractionEndTurnEventArgs)
         {
             m_GameStatusBar.Text = string.Format(m_MoveFormat, i_UserInteractionEndTurnEventArgs.NextPlayer);
@@ -502,7 +502,7 @@ namespace Othello.UI
         /// Handles the OnTurnPassed event of the m_LogicBoard control.
         /// </summary>
         /// <param name="i_Sender">The source of the event.</param>
-        /// <param name="i_PassTurnEventArgs">The <see cref="Ex06.Othello.Logic.PassTurnEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_PassTurnEventArgs">The <see cref="Othello.Logic.PassTurnEventArgs"/> instance containing the event data.</param>
         private void m_LogicBoard_OnTurnPassed(object i_Sender, PassTurnEventArgs i_PassTurnEventArgs)
         {
             if (this.InvokeRequired)
@@ -519,7 +519,7 @@ namespace Othello.UI
         /// Handles the OnGameOver event of the m_LogicBoard control.
         /// </summary>
         /// <param name="i_Sender">The source of the event.</param>
-        /// <param name="i_EndGameEventArgs">The <see cref="Ex06.Othello.Logic.EndGameEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_EndGameEventArgs">The <see cref="Othello.Logic.EndGameEventArgs"/> instance containing the event data.</param>
         private void m_LogicBoard_OnGameOver(object i_Sender, EndGameEventArgs i_EndGameEventArgs)
         {
             if (this.InvokeRequired)
@@ -535,7 +535,7 @@ namespace Othello.UI
         /// <summary>
         /// Ons the turn passed.
         /// </summary>
-        /// <param name="i_PassTurnEventArgs">The <see cref="Ex06.Othello.Logic.PassTurnEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_PassTurnEventArgs">The <see cref="Othello.Logic.PassTurnEventArgs"/> instance containing the event data.</param>
         private void onTurnPassed(PassTurnEventArgs i_PassTurnEventArgs)
         {
             ePlayerColor passedFrom = i_PassTurnEventArgs.PassedFrom;
@@ -548,7 +548,7 @@ namespace Othello.UI
         /// <summary>
         /// Ons the game over.
         /// </summary>
-        /// <param name="i_EndGameEventArgs">The <see cref="Ex06.Othello.Logic.EndGameEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_EndGameEventArgs">The <see cref="Othello.Logic.EndGameEventArgs"/> instance containing the event data.</param>
         private void onGameOver(EndGameEventArgs i_EndGameEventArgs)
         {
             int blackCount = 0;

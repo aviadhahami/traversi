@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Othello.Logic.EndGameEventArgs" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACIAQASAAAACAAIgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EndGameEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.EndTurnEventArgs" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAIAAAAAQAAAAAABAAAACAAAAAAAgAAIAAA=</HashCode>
+      <FileName>EndTurnEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.OthelloDiskCareTaker" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAQAAAAIAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>OthelloCareTaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.OthelloDisk" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAACEQAAIIAAAAAAEAAAAgAIAAAAAAAA=</HashCode>
+      <FileName>OthelloDisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.OthelloDiskChangedEventArgs" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAEIAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>OthelloDiskChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.OthelloDiskMemento" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>OthelloDiskMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.OthelloLogicBoard" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAAUICAAACAACAgCAIAgBgAAIwAEBEEAgQAACkM=</HashCode>
+      <FileName>OthelloLogicBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.PassTurnEventArgs" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>PassTurnEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.PlayerChangedEventArgs" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>PlayerChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.Statistics" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAIAQCAAAAAAAgQAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.PlayerAggregatedStatistcs" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TotalScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.Logic.UserInteractionEndTurnEventArgs" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserInteractionEndTurnEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Othello.Logic.Location" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAEAAAAAAJAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Othello.Logic.eDiskMode" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eDiskMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Othello.Logic.ePlayerColor" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ePlayerColor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

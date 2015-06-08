@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public enum ePlayerMode
     {

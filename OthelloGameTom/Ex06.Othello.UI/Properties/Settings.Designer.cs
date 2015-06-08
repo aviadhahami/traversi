@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ex06.Othello.UI.Properties
+namespace Othello.UI.Properties
 {
 
 

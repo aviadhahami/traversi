@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using Othello.Logic;
 using System.Timers;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public partial class OthelloBoardControl : UserControl
     {

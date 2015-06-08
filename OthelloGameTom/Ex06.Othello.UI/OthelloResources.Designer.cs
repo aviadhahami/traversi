@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ex06.Othello.UI {
+namespace Othello.UI {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Ex06.Othello.UI {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ex06.Othello.UI.OthelloResources", typeof(OthelloResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Othello.UI.OthelloResources", typeof(OthelloResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

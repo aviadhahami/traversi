@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Othello.Logic;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public class Player
     {

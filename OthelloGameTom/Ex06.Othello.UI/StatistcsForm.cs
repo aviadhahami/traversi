@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Othello.Logic;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public partial class StatistcsForm : Form
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public static class Program
     {

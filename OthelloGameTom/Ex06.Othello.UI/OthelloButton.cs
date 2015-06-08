@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using Othello.Logic;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public class OthelloButton : FlowLayoutPanel
     {

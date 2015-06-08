@@ -4,7 +4,7 @@ using Othello.Logic;
 using System.ComponentModel;
 using System.Drawing;
 
-namespace Ex06.Othello.UI
+namespace Othello.UI
 {
     public partial class OthelloBoardForm : Form
     {

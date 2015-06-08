@@ -597,22 +597,5 @@ namespace Othello.UI
                 i_OthelloButton.ConvertToVirtualWhite();
             }
         }
-
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // OthelloBoardControl
-            // 
-            this.Name = "OthelloBoardControl";
-            this.Load += new System.EventHandler(this.OthelloBoardControl_Load);
-            this.ResumeLayout(false);
-
-        }
-
-        private void OthelloBoardControl_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -72,7 +72,7 @@ namespace Othello.Logic
                             }
                         }
                     }
-                }
+                }                
             }
         }
 

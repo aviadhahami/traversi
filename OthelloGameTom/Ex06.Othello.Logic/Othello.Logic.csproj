@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="eDiskMode.cs" />
+    <Compile Include="DiskMode.cs" />
     <Compile Include="EndGameEventArgs.cs" />
     <Compile Include="OthelloCareTaker.cs" />
     <Compile Include="OthelloDiskMemento.cs" />
@@ -56,9 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Statistics.cs" />
     <Compile Include="TotalScore.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

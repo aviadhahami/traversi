@@ -1,0 +1,28 @@
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\bin\Debug\Ex06.Othello.UI.exe
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\bin\Debug\Ex06.Othello.UI.pdb
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\bin\Debug\Ex06.Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\bin\Debug\Ex06.Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.csprojResolveAssemblyReference.cache
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.OthelloBoardControl.resources
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.OthelloBoardForm.resources
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.OthelloMoves.resources
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.OthelloResources.resources
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.Properties.Resources.resources
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.StatistcsForm.resources
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.csproj.GenerateResource.Cache
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.exe
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.exe
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\bin\Debug\Ex06.Othello.UI.exe
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\bin\Debug\Ex06.Othello.UI.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\bin\Debug\Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\bin\Debug\Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.csprojResolveAssemblyReference.cache
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.OthelloResources.resources
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.Properties.Resources.resources
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Ex06.Othello.UI.csproj.GenerateResource.Cache
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Othello.UI.OthelloBoardControl.resources
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Othello.UI.OthelloBoardForm.resources
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Othello.UI.OthelloMoves.resources
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.UI\obj\x86\Debug\Othello.UI.StatistcsForm.resources

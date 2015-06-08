@@ -258,7 +258,7 @@ namespace Othello.UI
         /// Handles the OnPlayerChanged event of the m_OthelloLogicBoard control.
         /// </summary>
         /// <param name="s_Sender">The source of the event.</param>
-        /// <param name="i_PlayerChangedEventArgs">The <see cref="Othello.Logic.PlayerChangedEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_PlayerChangedEventArgs">The <see cref="Ex06.Othello.Logic.PlayerChangedEventArgs"/> instance containing the event data.</param>
         void m_OthelloLogicBoard_OnPlayerChanged(object s_Sender, PlayerChangedEventArgs i_PlayerChangedEventArgs)
         {
             m_CurrentPlayer = m_OthelloLogicBoard.CurrentPlayer == ePlayerColor.Black ? m_BlackPlayer : m_WhitePlayer;
@@ -268,7 +268,7 @@ namespace Othello.UI
         /// Handles the OnTurnPassed event of the m_OthelloLogicBoard control.
         /// </summary>
         /// <param name="i_Sender">The source of the event.</param>
-        /// <param name="i_PassTurnEventArgs">The <see cref="Othello.Logic.PassTurnEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_PassTurnEventArgs">The <see cref="Ex06.Othello.Logic.PassTurnEventArgs"/> instance containing the event data.</param>
         private void m_OthelloLogicBoard_OnTurnPassed(object i_Sender, PassTurnEventArgs i_PassTurnEventArgs)
         {
             if (!m_IsGameOver)
@@ -282,7 +282,7 @@ namespace Othello.UI
         /// Handles the OnGameOver event of the m_OthelloLogicBoard control.
         /// </summary>
         /// <param name="i_Sender">The source of the event.</param>
-        /// <param name="i_EndGameEventArgs">The <see cref="Othello.Logic.EndGameEventArgs"/> instance containing the event data.</param>
+        /// <param name="i_EndGameEventArgs">The <see cref="Ex06.Othello.Logic.EndGameEventArgs"/> instance containing the event data.</param>
         private void m_OthelloLogicBoard_OnGameOver(object i_Sender, EndGameEventArgs i_EndGameEventArgs)
         {
             m_ComputerTurnTimer.Enabled = false;

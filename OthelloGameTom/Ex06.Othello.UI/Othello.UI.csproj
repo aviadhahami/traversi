@@ -106,9 +106,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ex06.Othello.Logic\Ex06.Othello.Logic.csproj">
+    <ProjectReference Include="..\Ex06.Othello.Logic\Othello.Logic.csproj">
       <Project>{EC8CE573-947D-47B3-9275-64CDC8D771F6}</Project>
-      <Name>Ex06.Othello.Logic</Name>
+      <Name>Othello.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

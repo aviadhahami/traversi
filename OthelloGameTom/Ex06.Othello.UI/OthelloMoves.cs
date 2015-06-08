@@ -11,7 +11,7 @@ using Othello.Logic;
 namespace Othello.UI
 {
     public partial class OthelloMoves : UserControl
-    {   
+    {
         private int m_MovesCounter = 0;
         private Panel m_MainPanel = null;
         private Label m_BlackScoreLabel = null;
@@ -54,13 +54,13 @@ namespace Othello.UI
         /// <param name="i_WhiteCoinsCount">The i_ white coins count.</param>
         /// <param name="i_Position">The i_ position.</param>
         public void SetUserMove(ePlayerColor i_CurrentPlayer, ePlayerColor i_NextPlayer, int i_BlackCoinsCount, int i_WhiteCoinsCount, string i_Position)
-        {   
+        {
             ListViewItem listViewItem = null;
 
             m_MovesCounter++;
             SetMove(i_NextPlayer, i_BlackCoinsCount, i_WhiteCoinsCount);
             listViewItem = new ListViewItem(m_MovesCounter.ToString());
-            
+
             listViewItem.SubItems.Add(i_CurrentPlayer.ToString());
             listViewItem.SubItems.Add(i_Position);
             m_MovesListView.Items.Add(listViewItem);
@@ -96,7 +96,7 @@ namespace Othello.UI
         private void initializeTopPanelMoves()
         {
             PictureBox blackCoinPictureBox = new PictureBox();
-            
+
             blackCoinPictureBox.Image = OthelloResources.CoinBlack;
             blackCoinPictureBox.Location = new Point(7, 25);
             blackCoinPictureBox.Size = new Size(32, 32);
@@ -161,7 +161,7 @@ namespace Othello.UI
             m_CurrentCoinPictureBox.Size = new Size(32, 32);
             m_CurrentCoinPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             m_MainPanel.Controls.Add(m_CurrentCoinPictureBox);
-            
+
             Label movesLabel = new Label();
 
             movesLabel.Font = new Font("Tahoma", 11F, FontStyle.Regular, GraphicsUnit.Point);
@@ -182,7 +182,7 @@ namespace Othello.UI
 
             m_MovesListView.Size = new Size(191, 296);
             m_MovesListView.Location = new Point(0, 164);
-            m_MovesListView.Columns.Add(new ColumnHeader() { Text =  "#", Width = 50, TextAlign = HorizontalAlignment.Center });
+            m_MovesListView.Columns.Add(new ColumnHeader() { Text = "#", Width = 50, TextAlign = HorizontalAlignment.Center });
             m_MovesListView.Columns.Add(new ColumnHeader() { Text = "Color", Width = 77, TextAlign = HorizontalAlignment.Center });
             m_MovesListView.Columns.Add(new ColumnHeader() { Text = "Position", Width = 56, TextAlign = HorizontalAlignment.Center });
             m_MainPanel.Controls.Add(m_MovesListView);

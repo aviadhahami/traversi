@@ -1,0 +1,14 @@
+D:\HIT\C#\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\bin\Debug\Ex06.Othello.Logic.dll
+D:\HIT\C#\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\bin\Debug\Ex06.Othello.Logic.pdb
+D:\HIT\C#\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\obj\Debug\Ex06.Othello.Logic.dll
+D:\HIT\C#\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\obj\Debug\Ex06.Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\bin\Debug\Ex06.Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\bin\Debug\Ex06.Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\obj\Debug\Ex06.Othello.Logic.csprojResolveAssemblyReference.cache
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\obj\Debug\Ex06.Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\B11 Ex06 KerenBerman 200018711\Ex06.Othello.Logic\obj\Debug\Ex06.Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.Logic\bin\Debug\Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.Logic\bin\Debug\Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.Logic\obj\Debug\Ex06.Othello.Logic.csprojResolveAssemblyReference.cache
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.Logic\obj\Debug\Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Ex06.Othello.Logic\obj\Debug\Othello.Logic.pdb

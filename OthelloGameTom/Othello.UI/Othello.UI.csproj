@@ -8,10 +8,11 @@
     <ProjectGuid>{3554FFE9-9756-434D-868B-54A58429FDB9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ex06.Othello.UI</RootNamespace>
-    <AssemblyName>Ex06.Othello.UI</AssemblyName>
+    <RootNamespace>Othello.UI</RootNamespace>
+    <AssemblyName>Othello.UI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -91,11 +92,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="StatistcsForm.resx">
       <DependentUpon>StatistcsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,7 +111,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ex06.Othello.Logic\Othello.Logic.csproj">
+    <ProjectReference Include="..\Othello.Logic\Othello.Logic.csproj">
       <Project>{EC8CE573-947D-47B3-9275-64CDC8D771F6}</Project>
       <Name>Othello.Logic</Name>
     </ProjectReference>

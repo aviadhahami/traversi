@@ -6,8 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Othello.Logic;
 using System.Timers;
+using Othello.Logic;
 
 namespace Othello.UI
 {
@@ -177,7 +177,7 @@ namespace Othello.UI
             m_OthelloPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, firstSize));
 
             for (int i = 0; i <= i_Size; i++)
-            {   
+            {
                 m_OthelloPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, size));
                 m_OthelloPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, size));
             }
@@ -221,7 +221,7 @@ namespace Othello.UI
         /// <value>
         ///   <c>true</c> if [show preview moves]; otherwise, <c>false</c>.
         /// </value>
-        public bool ShowPreviewMoves 
+        public bool ShowPreviewMoves
         {
 
             get { return m_ShowPreviewMoves; }

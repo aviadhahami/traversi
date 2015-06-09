@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using Othello.Logic;
 using System.ComponentModel;
 using System.Drawing;
+using Othello.Logic;
 
 namespace Othello.UI
 {

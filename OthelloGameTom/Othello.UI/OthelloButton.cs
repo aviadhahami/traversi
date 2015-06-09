@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using Othello.Logic;
+using Othello.UI;
 
 namespace Othello.UI
 {

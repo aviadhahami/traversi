@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Othello.Logic;
+using Othello.UI;
 
 namespace Othello.UI
 {

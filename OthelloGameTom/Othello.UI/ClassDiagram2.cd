@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Othello.UI.OthelloBoardControl" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IwiIkQ0QFQAIhEAQAAIABAIiBBCDCCAlLQSERSAADCg=</HashCode>
+      <FileName>OthelloBoardControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.OthelloBoardForm" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>JgIAUNQQIIKAoAIMggCCSECjIIpAgACRAAQJgQhgAIg=</HashCode>
+      <FileName>OthelloBoardForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.OthelloButton" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQgAABEKAAAAEAAESADQAEACgIAACiAEAEAiAAEAAAA=</HashCode>
+      <FileName>OthelloButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.OthelloMoves" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAgAQAEAEAAAAIAAAQAAqAAAAEAAAACg=</HashCode>
+      <FileName>OthelloMoves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.Player" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAACgAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.Program" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.StatistcsForm" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KQECFIAUAGQAABEgAAAIABEgSAEAQIJAQQAAAADQAAA=</HashCode>
+      <FileName>StatistcsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.OthelloResources" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEYAAQABEACAAQABAAAAAABAAAAAAIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.Properties.Resources" Collapsed="true">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Othello.UI.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Othello.UI.ePlayerMode" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ePlayerMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

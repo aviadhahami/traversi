@@ -1,0 +1,5 @@
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Othello.Logic\bin\Debug\Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Othello.Logic\bin\Debug\Othello.Logic.pdb
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Othello.Logic\obj\Debug\Othello.Logic.csprojResolveAssemblyReference.cache
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Othello.Logic\obj\Debug\Othello.Logic.dll
+C:\Users\aviadh\Desktop\Traversi\OthelloGameTom\Othello.Logic\obj\Debug\Othello.Logic.pdb

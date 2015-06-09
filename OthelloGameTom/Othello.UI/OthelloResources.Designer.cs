@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ex06.Othello.UI {
+namespace Othello.UI {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace Ex06.Othello.UI {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class OthelloResources {
+    internal class OthelloResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +36,10 @@ namespace Ex06.Othello.UI {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ex06.Othello.UI.OthelloResources", typeof(OthelloResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Othello.UI.OthelloResources", typeof(OthelloResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace Ex06.Othello.UI {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        public static System.Drawing.Icon AppIcon {
+        internal static System.Drawing.Icon AppIcon {
             get {
                 object obj = ResourceManager.GetObject("AppIcon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
@@ -73,7 +73,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap CoinBlack {
+        internal static System.Drawing.Bitmap CoinBlack {
             get {
                 object obj = ResourceManager.GetObject("CoinBlack", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap CoinBlackPreview {
+        internal static System.Drawing.Bitmap CoinBlackPreview {
             get {
                 object obj = ResourceManager.GetObject("CoinBlackPreview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap CoinWhite {
+        internal static System.Drawing.Bitmap CoinWhite {
             get {
                 object obj = ResourceManager.GetObject("CoinWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap CoinWhitePreview {
+        internal static System.Drawing.Bitmap CoinWhitePreview {
             get {
                 object obj = ResourceManager.GetObject("CoinWhitePreview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap IconNewGame {
+        internal static System.Drawing.Bitmap IconNewGame {
             get {
                 object obj = ResourceManager.GetObject("IconNewGame", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap IconShowPreview {
+        internal static System.Drawing.Bitmap IconShowPreview {
             get {
                 object obj = ResourceManager.GetObject("IconShowPreview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap IconShowValidMoves {
+        internal static System.Drawing.Bitmap IconShowValidMoves {
             get {
                 object obj = ResourceManager.GetObject("IconShowValidMoves", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace Ex06.Othello.UI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        public static System.Drawing.Icon IconStatistics {
+        internal static System.Drawing.Icon IconStatistics {
             get {
                 object obj = ResourceManager.GetObject("IconStatistics", resourceCulture);
                 return ((System.Drawing.Icon)(obj));

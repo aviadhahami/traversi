@@ -7,6 +7,7 @@ namespace Othello.Logic
 {
     public class OthelloDisk
     {
+
         private Location m_Location = Location.Empty;
         private eDiskMode m_DiskMode = eDiskMode.IlegalMove;
 
@@ -21,7 +22,6 @@ namespace Othello.Logic
         {
             this.m_Location = i_Location;
         }
-
 
         public bool IsVirtual { get; set; }
 
@@ -102,5 +102,6 @@ namespace Othello.Logic
         {
             return string.Format("Mode: {0} Row: {1} Column: {2}", this.DiskMode, this.m_Location.Row, m_Location.Column);
         }
+
     }
 }

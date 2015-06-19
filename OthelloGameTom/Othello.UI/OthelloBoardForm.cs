@@ -735,7 +735,13 @@ namespace Othello.UI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OthelloBoardForm";
+            this.Load += new System.EventHandler(this.OthelloBoardForm_Load);
             this.ResumeLayout(false);
+
+        }
+
+        private void OthelloBoardForm_Load(object sender, EventArgs e)
+        {
 
         }
     }

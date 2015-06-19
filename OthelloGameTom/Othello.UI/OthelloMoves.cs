@@ -188,5 +188,22 @@ namespace Othello.UI
             m_MovesListView.Columns.Add(new ColumnHeader() { Text = "Position", Width = 56, TextAlign = HorizontalAlignment.Center });
             m_MainPanel.Controls.Add(m_MovesListView);
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // OthelloMoves
+            // 
+            this.Name = "OthelloMoves";
+            this.Load += new System.EventHandler(this.OthelloMoves_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void OthelloMoves_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

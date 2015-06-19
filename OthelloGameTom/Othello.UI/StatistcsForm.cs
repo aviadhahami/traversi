@@ -300,5 +300,23 @@ namespace Othello.UI
             m_VsComputerUserWinsLabel.Text = sr_Zero;
             m_VsComputerDrawsLabel.Text = sr_Zero;
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // StatistcsForm
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "StatistcsForm";
+            this.Load += new System.EventHandler(this.StatistcsForm_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void StatistcsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

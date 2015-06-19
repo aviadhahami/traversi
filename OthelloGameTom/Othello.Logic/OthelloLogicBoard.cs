@@ -12,6 +12,8 @@ namespace Othello.Logic
         private OthelloDisk[,] m_OthelloDisks = null;
         private List<OthelloDisk> m_OptionalMoves = null;
         private static readonly int sr_NoOptionalMoves = 0;
+
+        // Decides which player starts
         private eDiskMode m_CurrentDiskMode = eDiskMode.Black;
 
         public event EventHandler<EndGameEventArgs> OnGameOver = null;

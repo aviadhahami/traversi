@@ -53,6 +53,7 @@ namespace Othello.Logic
                 {
                     m_DiskMode = value;
 
+                    // If we have listeneres 
                     if (OnDiskChanged != null || OnDiskChangedToVirtual != null)
                     {
                         OthelloDiskChangedEventArgs args = new OthelloDiskChangedEventArgs(m_DiskMode, m_Location);
@@ -102,6 +103,5 @@ namespace Othello.Logic
         {
             return string.Format("Mode: {0} Row: {1} Column: {2}", this.DiskMode, this.m_Location.Row, m_Location.Column);
         }
-
     }
 }
